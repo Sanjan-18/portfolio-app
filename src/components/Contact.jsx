@@ -3,11 +3,11 @@ import React from 'react';
 const Contact = () => {
   return (
     <section id="contact" style={{ marginTop: '4rem', padding: '4rem 0', borderTop: '8px solid #000', textAlign: 'center' }}>
-      <h2 style={{ fontSize: '3rem', marginBottom: '2rem' }}>LET'S BUILD SOMETHING BOLD.</h2>
+      <h2 className="contact-title" style={{ fontSize: '3rem', marginBottom: '2rem' }}>LET'S BUILD SOMETHING BOLD.</h2>
       <p style={{ fontSize: '1.2rem', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
         I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
       </p>
-      <a href="mailto:sanjanmanjunath@gmail.com" className="brutal-btn" style={{ fontSize: '1.5rem', padding: '1rem 2rem' }}>
+      <a href="mailto:sanjanmanjunath@gmail.com" className="brutal-btn contact-email" style={{ fontSize: '1.5rem', padding: '1rem 2rem' }}>
         sanjanmanjunath@gmail.com
       </a>
       
